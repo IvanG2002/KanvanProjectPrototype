@@ -1,0 +1,130 @@
+p,
+h1,
+i,
+h3,
+div {
+    background: transparent;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFF;
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+    padding: 5px;
+
+    width: 200px;
+    max-height: 150px;
+    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.03);
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left__profile {
+    height: 30px;
+    width: 33px;
+    background-color: #DBD9D9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left__username {
+    font-size: 15px;
+    color: #515151;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header__right i {
+    font-size: 20px;
+    padding: 5px 13px;
+    border-radius: 4px;
+    color: #515151;
+    cursor: pointer;
+    transition: all ease 300ms;
+}
+
+.header__right i:hover {
+    background-color: #E8E8E8;
+}
+
+
+.card__main {
+    padding: 5px;
+}
+
+.main__task {
+    color: #9E9D9D;
+    font-size: 10px;
+}
+
+.card__bottom {
+    display: flex;
+    align-items: center;
+}
+
+.bottom__left {
+    display: flex;
+}
+
+.left__team {
+    height: 15px;
+    width: 15px;
+    background-color: #DBD9D9;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bottom__right {
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom__right .right__info {
+    color: #9e9d9d;
+    font-size: 10px;
+    margin-right: 15px
+}
+.righ__marks{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.bottom__right .mark__status--success {
+    font-size: 8px;
+    padding: 3px;
+    background-color: #57D9A3;
+    color: #fff;
+    border-radius: 2px;
+}
+.bottom__right .mark__status--danger {
+    font-size: 8px;
+    padding: 3px;
+    background-color: #FF7452;
+    color: #fff;
+    border-radius: 2px;
+}
+.bottom__right .mark__status--task {
+    font-size: 8px;
+    padding: 3px;
+    background-color: #0C66E4;
+    color: #fff;
+    border-radius: 2px;
+}

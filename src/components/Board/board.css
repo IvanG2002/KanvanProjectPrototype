@@ -1,0 +1,38 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #EAEAEA, rgba(255, 255, 255, 0));
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 555px;
+    min-width: 250px;
+
+    gap: 10px;
+}
+
+.board__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+}
+
+.board__header i {
+    color: #959393;
+    font-size: 20px;
+    padding: 10px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.board__header i:hover {
+    background-color: #DEDEDE;
+}
+
+.board__title {
+    color: #A6A3A3;
+    font-size: 20px;
+    font-weight: 500;
+}

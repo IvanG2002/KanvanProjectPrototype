@@ -1,0 +1,21 @@
+span.header__span {
+    background: transparent;
+}
+
+.header {
+    background-color: #FFF;
+    height: 60px;
+    border-bottom: 1px solid #CECECE;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    padding: 10px;
+}
+
+.header .header__h1 {
+    color: #5E5E5E;
+}
+
+.header .header__h1 .header__span {
+    color: #045BE6;
+}
