@@ -1,3 +1,5 @@
+# Interface
+![image](https://github.com/IvanG2002/KanvanProjectPrototype/assets/114118249/f6694c71-e23d-4d47-a356-795cc961ae32)
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
